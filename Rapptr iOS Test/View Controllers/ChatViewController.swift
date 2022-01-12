@@ -8,19 +8,6 @@ import UIKit
 
 class ChatViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    /**
-     * =========================================================================================
-     * INSTRUCTIONS
-     * =========================================================================================
-     * 1) Make the UI look like it does in the mock-up.
-     *
-     * 2) Using the following endpoint, fetch chat data
-     *    URL: http://dev.rapptrlabs.com/Tests/scripts/chat_log.php
-     *
-     * 3) Parse the chat data using 'Message' model
-     *
-     **/
-    
     // MARK: - Properties
     private var client: ChatClient?
     private var messages: [Message]?
